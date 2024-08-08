@@ -8,27 +8,51 @@
   font-weight: 400;
   font-style: normal;
 }
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 
-
+body{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    background: rgb(17, 17, 17);
+    /* background: radial-gradient(rgba(119, 119, 119, 0) 80%); */
+}
 .display-flex{
     display: flex;
 }
-/* ------------------------------Header------------------------------ */
-body{
+.btn-primary{
+    background: rgb(230, 83, 60);
+    border-radius: 70px;
+    border: none;
     color: white;
-    /* background: rgb(17, 17, 17); */
+    font-size: 1.1rem;
+    padding: 16px 50px;
+    font-weight: 600;
 }
+.cards{
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    /* left: 764px;
+    top: 556px; */
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.54);
+}
+/* ------------------------------Header------------------------------ */
+
 header{
-    /* opacity: 0.9; */
-    /* background: rgba(17, 17, 17, 0.9); */
-    /* background: linear-gradient(180.00deg,rgba(119, 119, 119, 0) 100%); */
-    /* background: linear-gradient(180.00deg);
-    background: rgba(119, 119, 119, 0); */
-    background: linear-gradient(300.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 1000%);
-    /* background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);; */
+    position: relative;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1),rgba(119, 119, 119, 0.1) 1%);
+    
 }
+
 .navbar{
-    max-width: 1250px;
+    max-width: 1150px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -36,25 +60,29 @@ header{
 
 nav h3{
     color: rgb(230, 83, 60);
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     font-weight: 900;
     font-style: italic;
 }
+
 .nav_links{
-    width: 400px;
+    width: 450px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 2.5rem;
     padding: 13px 13px 13px 4px;
     justify-content: space-between;
 }
+
 .nav-items{
     list-style: none;
 }
+
 nav li a{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: white;
 }
+
 #anchor-home{
     background: rgb(230, 83, 60);
     border-radius: 50px;
@@ -65,11 +93,13 @@ nav li a{
 
 /* BANNER STYLING*/
 .banner{
-    max-width: 1250px;
+    position: relative;
+    max-width: 1150px;
     margin: auto;
 }
 .banner-content{
     width: 563px;
+    margin-right: 150px;
 }
 .banner-title{
     font-size: 5.2rem;
@@ -83,6 +113,73 @@ nav li a{
     font-weight: 400;                                    
 }
 .banner-info{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    margin-bottom: 32px;
+}
+.btn-membership{
+    margin-right: 25px;
+}
+.btn-download{
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+/* .banner-cards{
+    position: relative;
+} */
+.card-1{
+    /* margin-top: -300px;
+    margin-left: 350px; */
+    /* left: 864px;
+    top: 556px; */
+    width: 215px;
+    height: 105px;
+    left: 940px;
+    top: 110px;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: stretch;
+    padding-left: 15px;
+    padding-top: 10px;
+
+
+}
+
+#card1-info1{
+    /* color: white; */
+    font-size: 2.6rem;
+    font-weight: 900;
+    /* margin-top: 10px; */
+}
+#card1-info2{
+    color: rgba(255, 255, 255, 0.5);
+    /* padding-top: ; */
+    font-size: 1.2rem;
+    /* margin-bottom: 10px; */
+}
+.card-2{
+    left: 590px;
+    top: 440px;
+    /* width: 220px;
+    height: 100px */
+    align-items: center;
+    padding-left: 15px;
+    
+}
+.card2-container1{
+    background: rgb(230, 83, 60);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+
+}
+#card2-info1{
+    font-size: 1.6rem;
+    font-weight: 900;
+
+}
+#card2-info2{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.2rem;
 }
