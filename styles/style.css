@@ -13,7 +13,7 @@
     padding: 0;
 }
 img{
-    width: 100%;
+    /* width: 100%; */
 
 }
 
@@ -201,6 +201,7 @@ main{
     margin-top: 120px;
 }
 
+/* --------------------section-1---------------------- */
 .container_1{
     max-width: 700px;
     margin: auto;
@@ -239,4 +240,37 @@ main{
 .container_2 .card-habit p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
+}
+
+/* --------------------section-2(Running)---------------------- */
+.container_running{
+    /* position: relative; */
+    border-radius: 25px;
+    background: rgb(34, 34, 34);
+    padding: 65px 50px;
+    justify-content: space-between;
+}
+.container-running-info{
+    width: 460px;
+}
+.container-running-info h1{
+    margin-bottom: 25px;
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+.container-running-info p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+#btn-join{
+    padding: 8px 30px;
+}
+.running-info-img img{
+    width: 375px;
+    height: 335px;
+    object-fit: none;
+    object-position: 68% 33%;
+
 }
