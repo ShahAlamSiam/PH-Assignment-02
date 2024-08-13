@@ -300,6 +300,7 @@ main{
 
 .calc-main{
     background: rgb(34, 34, 34);
+    margin-bottom: 90px;
 }
 .container-calc-main{
     max-width: 1150px;
@@ -368,4 +369,22 @@ input, select{
 }
 #btn-calc{
     margin-bottom: 60px;
+}
+
+/* --------------------section-4(Team)---------------------- */
+
+.team-grettings h1{
+    margin-bottom: 25px;
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+.team-grettings p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+
+.container-team{
+    max-width: 1150px;
+    margin: auto;
+    text-align: center;
 }
