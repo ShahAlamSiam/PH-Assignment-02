@@ -373,6 +373,11 @@ input, select{
 
 /* --------------------section-4(Team)---------------------- */
 
+.team-grettings{
+        max-width: 750px;
+        margin: 100px auto;
+}
+
 .team-grettings h1{
     margin-bottom: 25px;
     font-size: 2.6rem;
@@ -387,4 +392,34 @@ input, select{
     max-width: 1150px;
     margin: auto;
     text-align: center;
+}
+
+.trainers-introduction{
+    border-radius: 25px;      
+    background: rgba(255, 255, 255, 0.1);
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-content: space-evenly; */
+    /* padding: auto; */
+    /* gap: 10px; */
+}
+.trainers img{
+    border-radius: 22px;
+    width: 363px;
+    height: 298px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.trainers{
+    position: relative;
+    padding: auto;
+    padding-top: 20px;
+}
+.overlay-text{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    text-align: left;
+}
+.overlay-text p{
+    color: rgba(255, 255, 255, 0.5);
 }
