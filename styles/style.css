@@ -196,12 +196,17 @@ nav li a{
 
 main{
     /* background-color: black; */
-    max-width: 1150px;
-    margin: auto;
+    /* max-width: 1150px;
+    margin: auto; */
     margin-top: 120px;
 }
 
 /* --------------------section-1---------------------- */
+
+.container_habit{
+    max-width: 1150px;
+    margin: auto;
+}
 .container_1{
     max-width: 700px;
     margin: auto;
@@ -245,6 +250,8 @@ main{
 /* --------------------section-2(Running)---------------------- */
 .container_running{
     /* position: relative; */
+    max-width: 1150px;
+    margin: auto;
     border-radius: 25px;
     background: rgb(34, 34, 34);
     padding: 65px 50px;
@@ -273,4 +280,92 @@ main{
     object-fit: none;
     object-position: 68% 33%;
 
+}
+
+/* --------------------section-3(Calculator)---------------------- */
+.calc-info{
+    max-width: 750px;
+    margin: 100px auto;
+}
+
+.calc-info h1{
+    margin-bottom: 25px;
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+.calc-info p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+.calc-main{
+    background: rgb(34, 34, 34);
+}
+.container-calc-main{
+    max-width: 1150px;
+    margin: auto;
+    justify-content: space-between;
+}
+.calc-chart{
+    max-width: 370px;
+}
+.container-calc-main h1{
+    margin-top: 45px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.calc-chart h1{
+    margin-bottom: 63px;
+}
+.calc-bmi{
+    max-width: 630px;
+}
+table, th, td {
+    color: rgba(255, 255, 255, 0.5);
+    border:1px solid rgba(255, 255, 255, 0.1);
+    /* text-align: center; */
+
+  }
+  th , td{
+    padding: 10px 15px;
+  }
+
+  td{
+    width: 140px;
+  }
+.column-info{
+    color: white;
+    font-weight: 500;
+}
+
+.calc-bmi h1{
+    margin-bottom: 20px;
+}
+
+.calc-bmi p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 42px;
+}
+.calc-bmi-input{
+    background: none;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 25px;
+} 
+#item-value{
+    grid-column: span 2;
+}
+input, select{
+    border: none;
+    border-radius: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 16px 48px 16px 30px;
+    font-size: 1.1rem;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+#btn-calc{
+    margin-bottom: 60px;
 }
