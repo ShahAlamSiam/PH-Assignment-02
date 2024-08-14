@@ -398,6 +398,7 @@ input, select{
     border-radius: 25px;      
     background: rgba(255, 255, 255, 0.1);
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 110px;
     /* justify-content: space-evenly; */
     /* padding: auto; */
     /* gap: 10px; */
@@ -423,3 +424,73 @@ input, select{
 .overlay-text p{
     color: rgba(255, 255, 255, 0.5);
 }
+
+
+/* ------------------------------Footer---------------------------- */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer{
+    max-width: 1150px;
+    margin: auto;
+}
+.container-footer{
+    padding-top: 75px;
+    /* justify-content: space-between; */
+}
+.footer-description{
+    width: 460px;
+    margin-right: 115px;
+}
+.footer-description h1{
+    color: rgb(230, 83, 60);
+    font-size: 4.2rem;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+.footer-description p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-links{
+    margin-bottom: 82px;
+    /* justify-content: space-evenly; */
+}
+.footer-links ul{
+    list-style: none;
+}
+/* .nav-items{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+} */
+ .footer-links li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .footer-links h1{
+    margin-bottom: 45px;
+    font-size: 2.1rem;
+    font-weight: 700;
+ }
+ .footer-links li{
+    margin-bottom: 20px;
+ }
+ .links_1{
+    margin-right: 170px;
+ }
+ #copyright{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+ }
+ hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+ }
