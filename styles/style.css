@@ -13,14 +13,12 @@
     padding: 0;
 }
 img{
-    /* width: 100%; */
-
+    width: 100%;
 }
 
 body{
     color: rgb(255, 255, 255);
     background: black;
-    /* background: radial-gradient(rgba(119, 119, 119, 0) 80%); */
 }
 .display-flex{
     display: flex;
@@ -41,8 +39,6 @@ body{
     position: absolute;
     width: 220px;
     height: 100px;
-    /* left: 764px;
-    top: 556px; */
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -53,8 +49,7 @@ body{
 
 header{
     position: relative;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.1),rgba(119, 119, 119, 0.1) 1%);
-    
+    background-image: linear-gradient(to bottom, rgb(17, 17, 17), rgba(255, 255, 255, 0.1),black 100%);
 }
 
 .navbar{
@@ -132,20 +127,12 @@ nav li a{
     background: none;
     border: 1px solid rgb(255, 255, 255);
 }
-/* .banner-cards{
-    position: relative;
-} */
 .card-1{
-    /* margin-top: -300px;
-    margin-left: 350px; */
-    /* left: 864px;
-    top: 556px; */
     width: 215px;
     height: 105px;
     left: 940px;
     top: 110px;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: stretch;
     padding-left: 15px;
     padding-top: 10px;
@@ -154,22 +141,16 @@ nav li a{
 }
 
 #card1-info1{
-    /* color: white; */
     font-size: 2.6rem;
     font-weight: 900;
-    /* margin-top: 10px; */
 }
 #card1-info2{
     color: rgba(255, 255, 255, 0.5);
-    /* padding-top: ; */
     font-size: 1.2rem;
-    /* margin-bottom: 10px; */
 }
 .card-2{
     left: 590px;
     top: 420px;
-    /* width: 220px;
-    height: 100px */
     align-items: center;
     padding-left: 15px;
     
@@ -195,9 +176,6 @@ nav li a{
 /* ------------------------------MAIN------------------------------ */
 
 main{
-    /* background-color: black; */
-    /* max-width: 1150px;
-    margin: auto; */
     margin-top: 120px;
 }
 
@@ -249,7 +227,6 @@ main{
 
 /* --------------------section-2(Running)---------------------- */
 .container_running{
-    /* position: relative; */
     max-width: 1150px;
     margin: auto;
     border-radius: 25px;
@@ -324,8 +301,6 @@ main{
 table, th, td {
     color: rgba(255, 255, 255, 0.5);
     border:1px solid rgba(255, 255, 255, 0.1);
-    /* text-align: center; */
-
   }
   th , td{
     padding: 10px 15px;
@@ -375,7 +350,7 @@ input, select{
 
 .team-grettings{
         max-width: 750px;
-        margin: 100px auto;
+        margin: 100px auto 60px auto;
 }
 
 .team-grettings h1{
@@ -399,9 +374,6 @@ input, select{
     background: rgba(255, 255, 255, 0.1);
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 110px;
-    /* justify-content: space-evenly; */
-    /* padding: auto; */
-    /* gap: 10px; */
 }
 .trainers img{
     border-radius: 22px;
@@ -436,7 +408,6 @@ footer{
 }
 .container-footer{
     padding-top: 75px;
-    /* justify-content: space-between; */
 }
 .footer-description{
     width: 460px;
@@ -454,20 +425,10 @@ footer{
 }
 .footer-links{
     margin-bottom: 82px;
-    /* justify-content: space-evenly; */
 }
 .footer-links ul{
     list-style: none;
 }
-/* .nav-items{
-    list-style: none;
-}
-
-nav li a{
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: white;
-} */
  .footer-links li a{
     text-decoration: none;
     font-size: 1.2rem;
