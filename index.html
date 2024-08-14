@@ -4,56 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Versatile UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="inter-font">
-    <header class="header">
+    <header class="header-main">
         
-        <nav class="navbar display-flex">
-           <h3>Fitness</h3>
-            <ul class="nav_links display-flex">
-                <li class="nav-items"><a class="nav-anchor" href=""><span id="anchor-home">Home</span></a></li>
-                <li class="nav-items"><a href="">Service</a></li>
-                <li class="nav-items"><a href="">Contact</a></li>
-                <li class="nav-items"><a href="">About</a></li>
-            </ul>
-        </nav>
-        <div class="banner display-flex">
-            <div class="banner-content">
-                <h1 class="banner-title">
-                    Get body in <span id="title-font">shape</span> & stay healthy
-                </h1>
-                <p class="banner-info">
-                    A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
-                </p>
-                <button class="btn-membership btn-primary">
-                    Join Club Now!
-                </button>
-                <button class="btn-download btn-primary">
-                    Download App
-                </button>
-            </div>
-            <div class="banner-cards">
-                <div class="card-1 cards display-flex">
-                    <span id="card1-info1">500+</span>
-                    <span id="card1-info2">Free Workout Videos</span>
-                </div>
-
-                <img src="assets/Images 2.png" alt="a trainer's image">
-
-                <div class="card-2 cards display-flex">
-                    <div class="card2-container1">
-
-                    </div>
-                    <div class="card2-container2">
-                        <span id="card2-info1">350+</span>
-                        <br>
-                        <span id="card2-info2">Video tutorial</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <section class="header">
+            <nav class="navbar display-flex">
+                <h3>Fitness</h3>
+                <i class="fa fa-bars ggg" style="font-size:2rem;color:whitesmoke"></i>
+                 <ul class="nav_links display-flex">
+                     <li class="nav-items"><a class="nav-anchor" href=""><span id="anchor-home">Home</span></a></li>
+                     <li class="nav-items"><a href="">Service</a></li>
+                     <li class="nav-items"><a href="">Contact</a></li>
+                     <li class="nav-items"><a href="">About</a></li>
+                 </ul>
+             </nav>
+             <div class="banner display-flex">
+                 <div class="banner-content">
+                     <h1 class="banner-title">
+                         Get body in <span id="title-font">shape</span> & stay healthy
+                     </h1>
+                     <p class="banner-info">
+                         A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
+                     </p>
+                     <button class="btn-membership btn-primary">
+                         Join Club Now!
+                     </button>
+                     <button class="btn-download btn-primary">
+                         Download App
+                     </button>
+                 </div>
+                 <div class="banner-cards">
+                     <div class="card-1 cards display-flex">
+                         <span id="card1-info1">500+</span>
+                         <span id="card1-info2">Free Workout Videos</span>
+                     </div>
+     
+                     <img src="assets/Images 2.png" alt="a trainer's image">
+     
+                     <div class="card-2 cards display-flex">
+                         <div class="card2-container1">
+     
+                         </div>
+                         <div class="card2-container2">
+                             <span id="card2-info1">350+</span>
+                             <br>
+                             <span id="card2-info2">Video tutorial</span>
+                         </div>
+                     </div>
+                 </div>
+     
+             </div>
+        </section>
         
     </header>
     <main class="container">
@@ -90,7 +94,7 @@
                 <h1>Run an Extra <br> 
                     Mile Easily</h1>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-                <button class="btn-primary"> 
+                <button class="btn-running btn-primary"> 
                     <span id="btn-join"> Join Now</span>
                  </button>
             </div>
@@ -138,12 +142,12 @@
                             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
 
                             <div class="calc-bmi-input display-grid">
-                                <input type="text" placeholder="Height/cm" name="Height" id="">
-                                <input type="text" placeholder="Weight/kg" name="Weight" id="">
-                                <input type="text" placeholder="Age" name="Age" id="">
+                                <input type="text" placeholder="Height/cm" name="Height" id="input-1">
+                                <input type="text" placeholder="Weight/kg" name="Weight" id="input-2">
+                                <input type="text" placeholder="Age" name="Age" id="input-3">
                                 <!-- <select placeholder="Sex" name="Gender" id=""></select>
                                 <select name="" placeholder="Select an activity factor" id=""></select> -->
-                                <select>
+                                <select id="item-value1">
                                     <option value="" disabled selected>Sex</option>
                                     <option value="Gender1">Male</option>
                                     <option value="Gender2">Female</option>
