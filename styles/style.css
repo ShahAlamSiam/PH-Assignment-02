@@ -241,11 +241,13 @@ main{
     margin: auto;
     border-radius: 25px;
     background: rgb(34, 34, 34);
-    padding: 65px 50px;
+    /* padding: 65px 50px; */
     justify-content: space-between;
+    align-items: center;
 }
 .container-running-info{
     width: 460px;
+    padding: 65px 50px;
 }
 .container-running-info h1{
     margin-bottom: 25px;
@@ -261,6 +263,9 @@ main{
 #btn-join{
     padding: 8px 30px;
 }
+.running-info-img{
+    padding-right: 50px;
+}
 .running-info-img img{
     width: 375px;
     height: 335px;
@@ -269,7 +274,6 @@ main{
     border-radius: 22px;
 
 }
-
 /* --------------------section-3(Calculator)---------------------- */
 .calc-info{
     max-width: 750px;
@@ -538,7 +542,7 @@ footer{
     }
    
     .header{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         padding: 0 auto;
     }
@@ -547,11 +551,14 @@ footer{
 
     }
     .navbar{
-        width: auto;
+        width: 90%;
         margin: 0px auto;
     }
     .ggg{
         display: block;
+    }
+    .banner-title{
+        font-size: 4rem;
     }
     .btn-download{
         /* display: inline-block; */
@@ -564,20 +571,25 @@ footer{
         flex-direction: column;
     }
     .banner-content{
-        width: 95%;
+        width: 90%;
+        padding: auto;
+        margin: auto;
     }
     .banner-cards{
         padding: 2rem;
+    }
+    .banner-cards img{
+        width: 100%;
     }
     .card-1, .card-2{
         width: 10rem;
     }
     .card-1{
-        top: 5rem;
-        left: 12rem;
+        top: 7.5rem;
+        left: 18rem;
     }
     .card-2{
-        top: 18rem;
+        top: 25rem;
         left: 3rem;
     }
         /* main */
@@ -593,25 +605,24 @@ footer{
     
         .container_running{
             flex-direction: column;
-            width: 70%;
-            margin: 0px;
-            margin-right: 0px;
-            margin: 0 auto;
+            width: 80%;
+            margin: 0px auto;
+            margin-top: 30px;
         }
         .running-info-img{
-            width: 100%;
+            width: 80%;
+            padding: 0px;
+            margin: 0px;
+            padding-bottom: 20px;
         }
         .running-info-img img{
             object-fit: cover;
             width: 100%;
-            margin-top: 20px; 
-            margin: 20 auto;
-            padding: 0 auto;
+            height: 80%;
         }
     
     .container-running-info{
-        width: 100%;
-        margin-right: 0px;
+        width: 80%;
     }
 
     .calculator{
@@ -640,20 +651,6 @@ footer{
     #input-1, #input-2, #input-3, item-value1{
         width: 60%;
     }
-    /* .calc-bmi-input{
-        background: none;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-        margin-bottom: 25px;
-    } 
-    #item-value{
-        grid-column: span 2;
-    } */
-     /* .calc-bmi-input{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
-     } */
 
      .team-grettings{
         width: 80%;
@@ -680,8 +677,11 @@ footer{
         display: flex;
         flex-direction: column;
      }
+     .container-unique-image{
+        width: 80%;
+     }
      .container-unique-image img{
-        width: 60%;
+        width: 120%;
         /* object-fit: cover; */
         margin-bottom: 35px;
      }
@@ -701,6 +701,7 @@ footer{
      footer{
         width: 100%;
         margin: 25px auto;
+        margin-bottom: 0px;
      }
 
  }
