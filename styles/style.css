@@ -385,26 +385,26 @@ option{
 .container-team{
     max-width: 1150px;
     margin: auto;
-    text-align: center;
 }
 
 .trainers-introduction{
     border-radius: 25px;      
     background: rgba(255, 255, 255, 0.1);
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     margin-bottom: 110px;
+    padding: 20px;
+
 }
 .trainers img{
     border-radius: 22px;
-    width: 363px;
-    height: 298px;
+    width: 100%;
+    height: 38vh;
     object-fit: cover;
     opacity: 0.8;
 }
 .trainers{
     position: relative;
-    padding: auto;
-    padding-top: 20px;
 }
 .overlay-text{
     position: absolute;
@@ -624,7 +624,9 @@ footer{
     .container-running-info{
         width: 80%;
     }
-
+    .btn-running{
+        width: 100%;
+    }
     .calculator{
         width: 100%;
         margin: 0 auto;
@@ -659,6 +661,14 @@ footer{
         width: 80%;
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
+     }
+     .trainers{
+        width: 95%;
+        margin: auto;
+     }
+     .trainers img{
+        width: 100%;
+        height: 75vh;
      }
      .overlay-text{
         top: 80%;
@@ -702,6 +712,10 @@ footer{
         width: 100%;
         margin: 25px auto;
         margin-bottom: 0px;
+     }
+     #copyright{
+        text-align: start;
+        padding-left: 4.37rem;
      }
 
  }
